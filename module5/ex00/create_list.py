@@ -10,3 +10,6 @@ for i in range(len(numbers)) :
 	else :
 		print(f"{numbers[i]}, ", end="")
 print("]")
+
+
+#print(numbers) 

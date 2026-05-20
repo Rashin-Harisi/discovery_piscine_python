@@ -28,3 +28,4 @@ for i in range(len(numbers)):
 
 print_arr(new_list)
 
+#set() => set an array and check for duplication 
