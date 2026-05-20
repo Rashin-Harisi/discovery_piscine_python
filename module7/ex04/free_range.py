@@ -12,6 +12,7 @@ else:
 	b = int(sys.argv[2])
 	if (a > b) :
 		print("The fisrt number should be smaller than the second number")
+		sys.exit()
 	else : 
 		arr.append(a)
 		while (a != b) :
