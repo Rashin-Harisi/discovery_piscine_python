@@ -14,14 +14,6 @@ else:
 		print("The fisrt number should be smaller than the second number")
 		sys.exit()
 	else : 
-		arr.append(a)
-		while (a != b) :
-			a += 1
-			arr.append(a)
-	print("[", end="")
-	for i in range(len(arr)):
-		if (i == len(arr)-1):
-			print(f"{arr[i]}]")
-		else :
-			print(f"{arr[i]}, ", end="")
+		x =list(range(a,b+1,1))
+		print(x)
 		
