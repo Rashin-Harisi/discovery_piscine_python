@@ -11,7 +11,7 @@ else:
 	a = int(sys.argv[1])
 	b = int(sys.argv[2])
 	if (a > b) :
-		print("The fisrt number should be smaller than the second number")
+		print("The first number should be smaller than the second number")
 		sys.exit()
 	else : 
 		x =list(range(a,b+1,1))
